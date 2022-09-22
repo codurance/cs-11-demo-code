@@ -1,6 +1,4 @@
-using cs11_dotnet_7_demo.Support;
-
-namespace cs11_dotnet_7_demo;
+namespace cs11_demo.Support;
 
 public interface IRunnableDemo
 {

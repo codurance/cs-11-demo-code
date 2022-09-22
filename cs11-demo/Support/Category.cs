@@ -1,4 +1,4 @@
-namespace cs11_dotnet_7_demo.Support;
+namespace cs11_demo.Support;
 
 public enum Category
 {

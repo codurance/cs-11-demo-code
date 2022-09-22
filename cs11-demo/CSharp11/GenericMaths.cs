@@ -2,9 +2,9 @@
 using System.Reflection;
 using AutoFixture;
 using AutoFixture.Kernel;
-using cs11_dotnet_7_demo.Support;
+using cs11_demo.Support;
 
-namespace cs11_dotnet_7_demo.CSharp11;
+namespace cs11_demo.CSharp11;
 
 /*
   -  Static abstract and static virtual members in interfaces

@@ -1,7 +1,7 @@
-using cs11_dotnet_7_demo.Support;
+using cs11_demo.Support;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace cs11_dotnet_7_demo;
+namespace cs11_demo;
 
 
 public static class Program

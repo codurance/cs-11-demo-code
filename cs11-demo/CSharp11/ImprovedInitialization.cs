@@ -1,6 +1,6 @@
-using cs11_dotnet_7_demo.Support;
+using cs11_demo.Support;
 
-namespace cs11_dotnet_7_demo.CSharp11;
+namespace cs11_demo.CSharp11;
 
 /*
  * Init only or readonly properties generate warnings about not being initialised when not-null

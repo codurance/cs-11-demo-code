@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs11-dotnet-7-demo", "cs11-dotnet-7-demo\cs11-dotnet-7-demo.csproj", "{DA1D4923-8C06-47F7-9544-C16DB88674EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs11-demo", "cs11-demo\cs11-demo.csproj", "{DA1D4923-8C06-47F7-9544-C16DB88674EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
-using cs11_dotnet_7_demo.CSharp11;
+using cs11_demo.CSharp11;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace cs11_dotnet_7_demo.Support;
+namespace cs11_demo.Support;
 
 public static class Bootstrapper
 {
