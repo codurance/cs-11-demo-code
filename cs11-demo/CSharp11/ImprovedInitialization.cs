@@ -19,10 +19,10 @@ public class ImprovedInitialization: IRunnableDemo
 										{
 											FavouriteWord       = SecretWord.Peng,
 											NumberOfShrubberies = 4,
-											CrimesCommitted = new[]
+											CrimesCommitted = new []
 															  {
 																  Crime.BeingAnAsshole,
-																  Crime.SayingNiAggressively
+																  Crime.InterferingWithTheKingsQuest
 															  }
 										},
 										new()
@@ -48,9 +48,9 @@ public class ImprovedInitialization: IRunnableDemo
 
 	private class KnightWhoSaysNi
 	{
-		public SecretWord FavouriteWord       { get; init; }
-		public int        NumberOfShrubberies { get; init; }
-		public Crime[]    CrimesCommitted     { get; init; }
+		public SecretWord FavouriteWord { get; init; }
+		public int NumberOfShrubberies { get; init; }
+		public Crime[] CrimesCommitted { get; init; }
 
 		public override string ToString() => $"Knight of Ni who guards {FavouriteWord}, has {NumberOfShrubberies} shrubberies and is wanted for {string.Join(", ", CrimesCommitted)}";
 	}

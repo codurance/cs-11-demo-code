@@ -13,7 +13,7 @@ namespace cs11_demo.CSharp11;
  */
 public class RawStrings: IRunnableDemo
 {
-	private const string OldJsonLiteral =@"
+/*	private const string OldJsonLiteral =@"
 {
     ""glossary"": {
 	""title"": ""example glossary"",
@@ -36,12 +36,12 @@ public class RawStrings: IRunnableDemo
 	}
 }
 }
-";
+";*/
 	
-	/*private const string JsonBlob = """
+	private const string JsonBlob = """
 	{
 	    "glossary": {
-	        "title": "example glossary",
+	        "title": "How to use the raw string feature of c#",
 			"GlossDiv": {
 	            "title": "S",
 				"GlossList": {
@@ -60,14 +60,14 @@ public class RawStrings: IRunnableDemo
 	            }
 	        }
 	    }
-	}
-	""";*/
+	} 
+	""";
 	
 
 	public void Run()
 	{
-		Console.WriteLine(OldJsonLiteral);
-		//Console.WriteLine(JsonBlob);
+		//Console.WriteLine(OldJsonLiteral);
+		Console.WriteLine(JsonBlob);
 	}
 
 	public string   Name     => "Raw Strings";

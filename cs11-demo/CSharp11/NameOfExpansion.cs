@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using cs11_demo.Support;
 
 namespace cs11_demo.CSharp11;
@@ -11,13 +12,13 @@ public class NameOfExpansion: IRunnableDemo
 {
 	public void Run()
 	{
-		object notNull = Echo(new object());
-		object isNull  = Echo(null);
+		object notNull  = Echo(new object());
+		object? isNull  = Echo(null);
 		
 		Console.WriteLine("Nothing to see here I'm afraid...");
 	}
 	
-	//[return: NotNullIfNotNull(nameof(input))]
+	[return: NotNullIfNotNull(nameof(input))]
 	public object? Echo(object? input) => input;
 
 	public string   Name     => "nameof() Expansion";
